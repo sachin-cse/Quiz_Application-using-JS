@@ -1,11 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz Application</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <!-- start quiz button -->
     <div class="start_btn"><button>Start Quiz</button></div>
@@ -43,26 +46,34 @@
             <div class="option_list">
                 <div class="option">
                     <span>1</span>
-                    <div class="icon"><i></i></div>
+                    <div class="icon tick"><i class="fas fa-check"></i></div>
                 </div>
 
                 <div class="option">
-                    <span>1</span>
-                    <div class="icon"><i></i></div>
+                    <span>2</span>
+                    <div class="icon cross"><i class="fas fa-times"></i></div>
                 </div>
 
                 <div class="option">
-                    <span>1</span>
-                    <div class="icon"><i></i></div>
+                    <span>3</span>
                 </div>
 
                 <div class="option">
-                    <span>1</span>
-                    <div class="icon"><i></i></div>
+                    <span>4</span>
                 </div>
-                
+
             </div>
         </section>
+        <!-- Quiz Box footer -->
+        <footer>
+            <div class="total_que">
+                <span>
+                    <p>2</p>Of<p>5</p>Questions
+                </span>
+            </div>
+            <button class="next_btn">Next Question</button>
+        </footer>
     </div>
 </body>
+
 </html>
